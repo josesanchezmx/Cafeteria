@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:ital,wght@0,900;1,900&family=Roboto:ital,wght@0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="build/css/app.css">
+    <title>Cafeteria SASS</title>
+</head>
+
+<body>
+    <header class="header header-nosotros">
+        <div class="contenido-header contenedor">
+            <div class="barra">
+                <div class="logo">
+                    <img src="build/img/logo.svg" alt="logo de la empresa">
+                </div>
+
+                <nav class="nav-pricipal">
+                    <a href="index.html">inicio</a>
+                    <a class="activo" href="nosotros.html">nosotros</a>
+                    <a href="proceso.html">proceso</a>
+                    <a href="menu.html">menu</a>
+                    <a href="galeria.html">galeria</a>
+                    <a href="contacto.html">contacto</a>
+
+                </nav>
+            </div>
+            <div class="texto-header">
+                <h1>Una nueva experiencia cada día</h1>
+            </div>
+        </div>
+    </header>
+    <main class="contenedor contenido-pricipal text-center">
+        <h2><span>conoce más</span>Sobre nosotros</h2>
+        <div class="contenido-nosotros">
+            <div class="imagen">
+                <picture>
+                    <source 
+                        srcset="build/img/nosotros_sidebar.avif"
+                        type="image/avif">
+                    <source 
+                        srcset="build/img/nosotros_sidebar.webp"
+                        type="image/webp">
+                    <source 
+                        srcset="build/img/nosotros_sidebar.jpg"
+                        type="image/jpg">
+                        <img loading="lazy" decoding="async" src="build/img/nosotros_sidebar.jpg"
+                        lazyalt="imagen" width="500" height="300">
+                </picture>
+            </div>
+            <div class="texto">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni sapiente voluptatum, possimus labore, minus provident accusamus obcaecati animi libero fugit! Consectetur nostrum temporibus cumque magnam explicabo aspernatur delectus cum.</p>
+
+                <blockquote>Excelente sabor</blockquote>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique asperiores provident, at quasi rerum doloribus, optio beatae cupiditate quaerat quo voluptate sapiente consequatur commodi voluptas officiis et, exercitationem impedit distinctio?</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor contenido-footer bg-white">
+           <div class="footer-box ubicacion">
+            <h3>ubicación</h3>
+            <p>Av.Tecamac, Tecamac de FV</p>
+            <p>Estado De México</p>
+           </div>
+           <div class="footer-box reservacion">
+            <h3>reservación</h3>
+            <p>Tel. 5630408135</p>
+            <a href="tel:+ 5630408135">Llamar</a>
+           </div>
+           <div class="footer-box horario">
+           <h3>Horario</h3>
+           <p>Lun-Jue: 11:00 - 21:00</p>
+           <p>Vie-Sab: 9:00 - 20:00</p>
+           <p>Domingo: Cerrado</p> 
+           </div>
+        </div>
+        <p class="copyright"> Todos los Derechos Reservados © 2023 - La Cafetería Tecamac</p>
+    </footer>
+</body>
+
+</html>

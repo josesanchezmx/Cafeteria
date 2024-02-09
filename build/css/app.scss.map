@@ -1,0 +1,1 @@
+{"version":3,"sources":["app.scss"],"names":[],"mappings":"AAAA,WAAW;AACX,aAAa;AACb,aAAa;AACb,aAAa;AACb,eAAe;;AAEf,iBAAiB","file":"app.scss","sourcesContent":["@use 'base';\r\n@use 'header';\r\n@use 'inicio';\r\n@use 'footer';\r\n@use 'internas';\r\n\r\n@use 'utilidades';\r\n"]}
